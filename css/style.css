@@ -1,0 +1,97 @@
+/* Переменные */
+:root{
+--title-color:#212121;
+--text-color:#757575;
+--brand-color:#2196F3;
+--main-title-color:#FFFFFF;
+}
+
+/* Подключаем шрифты */
+body{
+  font-family: Roboto, sans-serif;
+  color: var(--title-color);
+  font-size: 14px;
+}
+
+/* Лого */
+.logo{
+  font-family: Raleway, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.logo-color{
+  color: var(--brand-color);
+}
+
+/* Настройка шрифта индивидуально */
+.nav a, header>.contacts a{
+  font-weight: 500px;
+  line-height:1.17 ;
+}
+.contacts a, section p, .name-category p{
+  color:var(--text-color);
+}
+.contacts p, .main h1{ 
+  color:var(--main-title-color);
+}
+.main h1{
+  font-size: 44px;
+  font-weight: 900 ;
+  line-height: 1.36;
+}
+.main button{
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.87;
+}
+section h3{
+  font-weight: 700;
+  line-height: 1.17;
+}
+section p, footer>.contacts a{
+  line-height:1.71 ;
+}
+section h2{
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+}
+.name{
+  color:var(--title-color);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+.team p{
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+/* Настройка шрифта portfolio.html */
+.name-category h3{
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+}
+.name-category p{
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* Кнопки и ссылки */
+.filter-button{
+  color:#F5F4FA;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.62;
+}
+.contacts a:hover, .contacts a:focus,.nav a:hover, .nav a:focus {
+  color: var(--brand-color);
+}
+.filter-button button:hover, .filter-button button:focus, .main button{
+  background-color: var(--brand-color);
+  color:var(--main-title-color);
+}
+
+
